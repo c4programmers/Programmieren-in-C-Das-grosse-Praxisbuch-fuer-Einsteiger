@@ -1,0 +1,9 @@
+/* example 001 – Hello World */
+1 #include <stdio.h> // include the headerfile stdio.h
+2 /* main() is the entry point
+3 of each C program – this is a comment and it’s not part of code */
+4 int main(void)
+5 {
+6 printf("Hello World\n"); // print out the characters within " "
+7 return 0;
+8 }
