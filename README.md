@@ -2,4 +2,5 @@
 „Programmieren in C - Das große Praxisbuch für Einsteiger“ ist dein klarer, handfester Einstieg in die Welt der C-Programmierung – speziell für alle, die C nicht nur am PC, sondern auf Mikrocontrollern einsetzen wollen. Schritt für Schritt baust du dir das nötige Fundament auf: von Datentypen, Operatoren und Kontrollstrukturen über Funktionen, Arrays und Zeiger bis zu Strukturen, Enums, modularen Projekten und dynamischer Speicherverwaltung. Jede Lektion endet mit kompakten, lauffähigen Beispielen, die typische Stolperfallen vermeiden und dir gute Muster für eigenen Code an die Hand geben. Dazu kommen Tipps zu Debugging, sauberen Schnittstellen, Fehlertoleranz und defensiver Programmierung. Ob du komplett neu beginnst oder dein Wissen strukturiert auffrischen willst: Dieses Buch bringt dich mit verständlichen Erklärungen, klaren Code-Beispielen (durchgehend kommentiert) und einem roten Faden zügig von den Grundlagen zur sicheren Anwendung. Ideal fürs Selbststudium, für Ausbildung und als Nachschlagewerk auf dem Schreibtisch.
 
 ISBN-10: 338465465X
+
 ISBN-13: 978-3384654656
