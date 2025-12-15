@@ -1,0 +1,14 @@
+/* example 181 - using fwrite() */
+#include <stdio.h>
+
+int main (void)
+{
+    char myString[] = "Hello World!";
+    FILE *fptr;
+
+    fptr = fopen("c:\\CProgramming\\testfile.txt", "w");
+    fwrite(myString, 1, sizeof(myString), fptr);
+
+    fclose(fptr);
+    return(0);
+}

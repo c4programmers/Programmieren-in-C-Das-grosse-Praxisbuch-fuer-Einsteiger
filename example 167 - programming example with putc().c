@@ -1,0 +1,13 @@
+/* example 167 - programming example with putc() */
+#include <stdlib.h>
+#include <stdio.h>
+
+int main( void )
+{
+    char myText[] = "Hello World!\n";
+
+    for(int i = 0; myText[i] != '\0'; ++i )
+        putc( myText[i], stdout );
+
+    return 0;
+}

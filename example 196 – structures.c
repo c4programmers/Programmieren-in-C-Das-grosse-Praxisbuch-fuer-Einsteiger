@@ -1,0 +1,13 @@
+/* example 196 – structures */
+#include <stdio.h>
+#include <stdlib.h>  // need for div_t
+
+int main(void) {
+    int x=8, y=3;
+    div_t result = div(x, y);
+
+    printf("%d / %d = %d\n",x,y,result.quot);
+    printf("Remainder: %d",result.rem);
+
+    return 0;
+}

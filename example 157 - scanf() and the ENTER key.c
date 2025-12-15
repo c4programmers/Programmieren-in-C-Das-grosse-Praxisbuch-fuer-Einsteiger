@@ -1,0 +1,19 @@
+/* example 157 - scanf() and the ENTER key */
+#include <stdio.h>
+
+int main(void)
+{
+   char ch1, ch2, ch3;
+
+   printf("Enter the first character: ");
+   scanf("%c", &ch1);
+
+   printf("Enter the second character: ");
+   scanf("%c", &ch2);
+
+   printf("\nEnter the third character: ");
+   scanf("%c", &ch3);
+
+   printf("\nYou entered: %c %c %c", ch1, ch2, ch3);
+   return 0;
+}

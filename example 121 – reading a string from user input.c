@@ -1,0 +1,11 @@
+/* example 121 – reading a string from user input */
+#include <stdio.h>
+
+int main(void)
+{
+    char name[20];
+    printf("Enter your name: ");
+    scanf("%s",name);	// without &name
+    printf("hello, %s\n", name);
+    return 0;
+}

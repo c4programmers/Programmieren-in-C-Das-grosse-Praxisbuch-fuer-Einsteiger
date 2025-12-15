@@ -1,0 +1,15 @@
+/* example 179 - using puts() */
+#include <stdio.h>
+#include <string.h>
+
+int main( void )
+{
+    char myString[20];
+
+    strcpy(myString, "Hello World!");
+
+    puts("Output:");
+    puts(myString);
+
+    return 0;
+}

@@ -1,0 +1,22 @@
+/* example 158 - clear keyboard buffer with fflush(stdin) */
+#include <stdio.h>
+
+int main(void)
+{
+   char ch1, ch2, ch3;
+
+   printf("Enter the first character: ");
+   scanf("%c", &ch1);
+   fflush(stdin);  	// Achtung: Nicht standardkonform
+
+   printf("Enter the second character: ");
+   scanf("%c", &ch2);
+   fflush(stdin); 	// Achtung: Nicht standardkonform
+
+   printf("Enter the third character: ");
+   scanf("%c", &ch3);
+   fflush(stdin); 	// Achtung: Nicht standardkonform
+
+   printf("\nYou entered: %c %c %c", ch1, ch2, ch3);
+   return 0;
+}

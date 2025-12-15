@@ -1,0 +1,15 @@
+/* example 165 - check the input buffer for \n or EOF */
+#include <stdio.h>
+
+int main(void)
+{
+   int ch;
+
+   while((ch = getchar()) != '\n' && ch != EOF) {    // Check if ch is not \n or EOF
+      putchar(ch);
+   }
+
+   printf("\nEND");
+
+   return 0;
+}

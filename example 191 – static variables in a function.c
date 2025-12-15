@@ -1,0 +1,16 @@
+/* example 191 – static variables in a function */
+#include <stdio.h>
+
+void write(void) {
+    static int counter = 100;
+    counter ++;     // increment counter by one
+    printf("Value of counter is %d\n", counter);
+}
+
+int main()
+{
+    /* for loop */
+    for (int i=0; i<3; i++) {
+        write();
+    }    return EXIT_SUCCESS;
+}

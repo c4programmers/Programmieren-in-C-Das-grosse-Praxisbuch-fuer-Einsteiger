@@ -1,0 +1,15 @@
+/* example 195 - structure direct assignment of values */
+#include <stdio.h>
+
+struct employee	{  	// declaration of structure employee
+   char firstName[20];
+   char lastName[20];
+   double salary;
+}data = {"Bill", "Gates", 12579558.22};	// direct assignment of values
+
+int main (void)
+{
+   printf("Name: %s %s \n",data.firstName, data.lastName);
+   printf("Salary: %.2lf ",data.salary);
+   return 0;
+}
