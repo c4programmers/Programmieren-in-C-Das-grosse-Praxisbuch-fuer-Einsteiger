@@ -26,9 +26,6 @@ void print_board() {
     }
 }
 
-
-
-
 // Function to check if a move is valid
 int is_valid_move(int row, int col) {
     if (row < 0 || row > 2 || col < 0 || col > 2) {
@@ -83,13 +80,6 @@ board[1][1] == board[2][0]) {
 void make_move(int row, int col, char player) {
     board[row][col] = player;
 }
-
-
-
-
-
-
-
 
 int main()
 {
