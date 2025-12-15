@@ -1,0 +1,15 @@
+/* example 227 – enum */
+#include <stdio.h>
+
+enum boolean {False, True} x;	// declaration of x which is type enum boolean
+
+int main (void)
+{
+    x = True;
+    printf("\nTrue = %d", x);
+
+    x = False;
+    printf("\nFalse = %d", x);
+
+    return 0;
+}

@@ -1,0 +1,16 @@
+/* example 224 – pointer to member of unions */
+#include <stdio.h>
+
+union myUnion {
+   int a;
+   char b;
+};
+
+int main(void)
+{
+    union myUnion udata, *uptr;
+    udata.a = 65;
+    uptr = &udata;
+    printf("a = %d, b = %c",uptr->a, uptr->b);
+    return 0;
+}
