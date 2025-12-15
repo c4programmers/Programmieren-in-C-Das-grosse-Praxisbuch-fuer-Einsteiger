@@ -1,0 +1,15 @@
+/* example 048 – logical operators */
+	#include <stdio.h>
+
+int main(void)
+{
+   int a = 2, b = 5;
+
+   if(a == 2 && b > 4) {
+        printf("a is equal 2 AND b is greater than 4");
+   }
+   else {
+        printf("The condition is not met");
+   }
+   return 0;
+}
